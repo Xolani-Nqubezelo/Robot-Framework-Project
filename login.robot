@@ -9,7 +9,6 @@ Suite Teardown    Stop Remote Server
 *** Keywords ***
 Read All images
     Add Image Path  ${IMG_PATH}
-#C:\Users\0006225144085\OneDrive - PSG\Documents\Daily Tial Morning Checks\pics
 Open my browser
     [Arguments]    ${URL}    ${Browser}
     Open Browser    about:blank    browser=${Browser}     #options=add_argument("--headless")
@@ -123,7 +122,7 @@ Input Data
     input enabled text  ${txt_AddIncreaseCost}    200000
 
 Go to Inventory
-    go to   https://psgcloud.sharepoint.com/sites/STA_External/Lists/Inventory%20Calculator/newform.aspx
+    go to   https://...
     Sleep   2s
 
 Validation of BI
